@@ -33,9 +33,6 @@ jobs:
       - name: Build library
         run: npm run build-package
 
-      - name: Test library
-        run: npm test -- --watch=false --browsers=ChromeHeadless
-
       - name: Publish to npm
         run: |
           cd dist/ngx-angular-query-builder

@@ -34,7 +34,7 @@ jobs:
         run: npm run build-package
 
       - name: Test library
-        run: npm test -- --watch=false --browsers=ChromeHeadless --no-fail-on-empty-test-suite
+        run: npm test -- --watch=false --browsers=ChromeHeadless
 
       - name: Publish to npm
         run: |

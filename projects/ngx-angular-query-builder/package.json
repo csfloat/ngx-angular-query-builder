@@ -1,8 +1,15 @@
 {
-  "name": "ngx-angular-query-builder",
+  "name": "@csfloat/ngx-angular-query-builder",
   "version": "19.0.0",
   "description": "Port of angular2-query-builder from github.com/designermanjeets/Angular-QueryBuilder in order to support angular 12+",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csfloat/ngx-angular-query-builder.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "peerDependencies": {
     "@angular/common": "^19.2.14",
     "@angular/core": "^19.2.14"

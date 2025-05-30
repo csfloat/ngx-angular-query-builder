@@ -32,6 +32,25 @@ Use the following versions depending upon your angular version
 - Angular 18 - Versions 18.x.x
 - Angular 19 - Versions 19.x.x
 
+# Installation
+
+## From GitHub Package Registry
+
+To install from GitHub Package Registry, you need to:
+
+1. Create a `.npmrc` file in your project root with:
+```
+@your-github-username:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN
+```
+
+2. Install the package:
+```bash
+npm install @csfloat/ngx-angular-query-builder
+```
+
+**Note:** You'll need a [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) with `read:packages` scope to install packages from GitHub Package Registry.
+
 # Examples
 
 npm install ngx-angular-query-builder

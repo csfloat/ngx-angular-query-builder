@@ -34,22 +34,9 @@ Use the following versions depending upon your angular version
 
 # Installation
 
-## From GitHub Package Registry
-
-To install from GitHub Package Registry, you need to:
-
-1. Create a `.npmrc` file in your project root with:
-```
-@your-github-username:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN
-```
-
-2. Install the package:
 ```bash
 npm install @csfloat/ngx-angular-query-builder
 ```
-
-**Note:** You'll need a [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) with `read:packages` scope to install packages from GitHub Package Registry.
 
 # Examples
 
@@ -60,7 +47,7 @@ npm install ngx-angular-query-builder
 ##### `app.module.ts`
 
 ```javascript
-import { NgxAngularQueryBuilderModule } from "ngx-angular-query-builder";
+import { NgxAngularQueryBuilderModule } from "@csfloat/ngx-angular-query-builder";
 import { AppComponent } from "./app.component"
 
 @NgModule(imports: [
@@ -81,7 +68,7 @@ export class AppModule { }
 ##### `app.component.ts`
 
 ```javascript
-import { QueryBuilderConfig } from 'ngx-angular-query-builder';
+import { QueryBuilderConfig } from '@csfloat/ngx-angular-query-builder';
 
 export class AppComponent {
   query = {

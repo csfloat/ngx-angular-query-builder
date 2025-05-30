@@ -7,8 +7,23 @@
     "type": "git",
     "url": "git+https://github.com/csfloat/ngx-angular-query-builder.git"
   },
+  "author": "CSFloat",
+  "keywords": [
+    "angular",
+    "query-builder",
+    "ngx",
+    "typescript",
+    "angular-query-builder",
+    "query",
+    "builder",
+    "filter"
+  ],
+  "homepage": "https://github.com/csfloat/ngx-angular-query-builder",
+  "bugs": {
+    "url": "https://github.com/csfloat/ngx-angular-query-builder/issues"
+  },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "peerDependencies": {
     "@angular/common": "^19.2.14",

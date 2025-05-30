@@ -9,7 +9,11 @@
     "watch-package": "ng build ngx-angular-query-builder --watch --configuration development",
     "watch-demo": "ng build demo --watch --configuration development",
     "test": "ng test",
-    "prettier": "npx prettier --write **"
+    "prettier": "npx prettier --write **",
+    "publish:dry-run": "npm run build-package && cd dist/ngx-angular-query-builder && npm pack --dry-run",
+    "publish:local": "npm run build-package && cd dist/ngx-angular-query-builder && npm publish",
+    "check:package": "npm view @csfloat/ngx-angular-query-builder",
+    "check:org": "npm org ls @csfloat"
   },
   "private": true,
   "dependencies": {

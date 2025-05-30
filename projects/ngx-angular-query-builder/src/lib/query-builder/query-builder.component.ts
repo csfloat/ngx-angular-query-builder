@@ -42,7 +42,6 @@ import {
   forwardRef,
   Input,
   OnChanges,
-  OnInit,
   QueryList,
   SimpleChanges,
   TemplateRef,

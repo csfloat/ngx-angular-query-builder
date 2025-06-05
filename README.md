@@ -1,16 +1,12 @@
 # NgxAngularQueryBuilder
 
-The goal of this project is to enable Angular 12+ support for the original [angular2-query-builder](https://github.com/zebzhao/Angular-QueryBuilder). It is _not_ production ready. This project may not be maintained. Should the original project become active again, this library may be abandoned.
+This is an **Angular 19 compatible fork** of the original [ngx-angular-query-builder](https://github.com/raysuelzer/ngx-angular-query-builder). This fork is maintained for internal use only, and may be upgraded to the latest version of Angular as needed. There is no guarantee that this project will be updated in the future.
 
-## I suggest forking this project if it is critical to your project because I may not update this regularly. If you want to contribute to maintaining this project open an issue.
-
-The changelog for the package is here: https://github.com/raysuelzer/ngx-angular-query-builder/blob/main/projects/ngx-angular-query-builder/CHANGELOG.md
-
-This project uses code from https://github.com/designermanjeets/Angular-QueryBuilder a fork of https://github.com/zebzhao/Angular-QueryBuilder both developed under the MIT License.
+This fork is published to npm as [@csfloat/ngx-angular-query-builder](https://www.npmjs.com/package/@csfloat/ngx-angular-query-builder).
 
 ## Change Log
 
-https://github.com/raysuelzer/ngx-angular-query-builder/blob/main/projects/ngx-angular-query-builder/CHANGELOG.md
+The changelog for the original package can be found [here](https://github.com/raysuelzer/ngx-angular-query-builder/blob/main/projects/ngx-angular-query-builder/CHANGELOG.md).
 
 
 ## Branches
@@ -21,7 +17,7 @@ https://github.com/raysuelzer/ngx-angular-query-builder/blob/main/projects/ngx-a
 
 # Versions
 
-Use the following versions depending upon your angular version
+Use the following versions depending upon your Angular version:
 
 - Angular 12 & 13 - Versions ^0.0.5
 - Angular 13 - Versions 13.x.x
@@ -338,7 +334,7 @@ Directive to replace the default remove single rule button component.
 
 ## Dependencies
 
-- Angular 12+
+- Angular 12+ (Fully tested and compatible up to Angular 19)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.13.
 

@@ -58,3 +58,6 @@
 
 - Support Angular 19
 
+### 20.0.0
+
+- Support Angular 20

@@ -27,6 +27,7 @@ Use the following versions depending upon your Angular version:
 - Angular 17 - Versions 17.x.x
 - Angular 18 - Versions 18.x.x
 - Angular 19 - Versions 19.x.x
+- Angular 20 - Versions 20.x.x
 
 # Installation
 

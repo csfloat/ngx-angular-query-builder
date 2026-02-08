@@ -61,3 +61,7 @@
 ### 20.0.0
 
 - Support Angular 20
+
+### 21.0.0
+
+- Support Angular 21

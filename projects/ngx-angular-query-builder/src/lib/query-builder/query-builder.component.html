@@ -120,7 +120,7 @@
                       </button>
                     </div>
                   }
-                  @if (entities?.length) {
+                  @if (entities && entities.length) {
                     <div class="q-inline-block-display">
                       @if (getEntityTemplate(); as template) {
                         <ng-container

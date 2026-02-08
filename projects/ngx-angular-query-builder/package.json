@@ -1,6 +1,6 @@
 {
   "name": "@csfloat/ngx-angular-query-builder",
-  "version": "20.0.0",
+  "version": "21.0.0",
   "description": "Port of angular2-query-builder from github.com/designermanjeets/Angular-QueryBuilder in order to support angular 12+",
   "license": "MIT",
   "repository": {
@@ -26,8 +26,8 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/common": "^20.0.6",
-    "@angular/core": "^20.0.6"
+    "@angular/common": "^21.1.3",
+    "@angular/core": "^21.1.3"
   },
   "dependencies": {
     "tslib": "^2.6.2"

@@ -4,11 +4,11 @@ import "zone.js";
 import "zone.js/testing";
 import { getTestBed } from "@angular/core/testing";
 import {
-  BrowserDynamicTestingModule,
-  platformBrowserDynamicTesting
-} from "@angular/platform-browser-dynamic/testing";
+  BrowserTestingModule,
+  platformBrowserTesting
+} from "@angular/platform-browser/testing";
 
 // First, initialize the Angular testing environment.
-getTestBed().initTestEnvironment(BrowserDynamicTestingModule, platformBrowserDynamicTesting(), {
+getTestBed().initTestEnvironment(BrowserTestingModule, platformBrowserTesting(), {
   teardown: { destroyAfterEach: true }
 });

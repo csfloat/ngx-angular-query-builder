@@ -1,4 +1,4 @@
-import { NgModule } from "@angular/core";
+import { NgModule, provideZoneChangeDetection } from "@angular/core";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MatButtonModule } from "@angular/material/button";
 import { MatCardModule } from "@angular/material/card";
@@ -36,7 +36,7 @@ import { AppComponent } from "./app.component";
     BrowserAnimationsModule,
     NgxAngularQueryBuilderModule
   ],
-  providers: [],
+  providers: [provideZoneChangeDetection()],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
